@@ -18,6 +18,9 @@ void setup() {
 }
 
 void loop() {
+
+
+  
   potinputval = analogRead(potinput);
   potinputval = map(potinputval, 1023, 0, 255, 0);
   // Serial.println(potinputval);
