@@ -19,7 +19,9 @@ void loop() {
   int voltage = analogRead(pot);
   int volt= map(voltage,0,1023,0,255);
   
-analogWrite(pwm,125);
+  
+  analogWrite(pwm,volt);
+  
 // put your main code here, to run repeatedly:
 
 
